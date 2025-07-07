@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>حجز موعد | مركز تمارا الطبي</title>
+
+  <!-- الخط -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- ملف CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/images/logo.png" alt="Tamara Medical Center Logo" />
+    <h1>حجز موعد - مركز تمارا الطبي</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">الرئيسية</a></li>
+      <li><a href="dashboard.html">لوحة الموظفين</a></li>
+      <li><a href="booking.html">حجز موعد</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>نموذج حجز موعد</h2>
+    <form action="#" method="post">
+      <label for="name">الاسم الكامل:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <label for="id">رقم الهوية / الملف:</label><br />
+      <input type="text" id="id" name="id" required /><br /><br />
+
+      <label for="date">تاريخ الموعد:</label><br />
+      <input type="date" id="date" name="date" required /><br /><br />
+
+      <label for="time">الوقت:</label><br />
+      <input type="time" id="time" name="time" required /><br /><br />
+
+      <button type="submit">إرسال الطلب</button>
+    </form>
+  </main>
+</body>
+</html>
